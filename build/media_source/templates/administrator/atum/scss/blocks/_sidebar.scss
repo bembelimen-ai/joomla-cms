@@ -2,8 +2,7 @@
 
 .sidebar-wrapper {
   z-index: $zindex-sidebar;
-  min-height: calc(100vh - 66px);
-  overflow: hidden;
+  height: calc(100vh - 66px);
   overflow-y: auto;
   background-color: $sidebarwrapper-bg;
   box-shadow: var(--atum-box-shadow);
