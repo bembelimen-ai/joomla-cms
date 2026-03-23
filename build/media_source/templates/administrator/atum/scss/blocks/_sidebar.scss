@@ -4,6 +4,7 @@
   z-index: $zindex-sidebar;
   min-height: calc(100vh - 66px);
   overflow: hidden;
+  overflow-y: auto;
   background-color: $sidebarwrapper-bg;
   box-shadow: var(--atum-box-shadow);
 
