@@ -1,6 +1,8 @@
 Joomla! CMS™
 ====================
 
+<!-- Copilot Test PR - please review -->
+
 Build Status
 ------------
 
