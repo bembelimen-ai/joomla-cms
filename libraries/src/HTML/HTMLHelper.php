@@ -979,7 +979,7 @@ abstract class HTMLHelper
      *
      * @since   1.5
      */
-    public static function tooltip($tooltip, $title = '', $image = 'tooltip.png', $text = '', $href = '', $alt = 'Tooltip', $class = 'hasTooltip')
+    public static function tooltip($tooltip, $title = '', $image = '', $text = '', $href = '', $alt = 'Tooltip', $class = 'hasTooltip')
     {
         if (\is_array($title)) {
             foreach (['image', 'text', 'href', 'alt', 'class'] as $param) {
