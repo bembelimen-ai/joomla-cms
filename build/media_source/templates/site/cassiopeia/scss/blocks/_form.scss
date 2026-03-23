@@ -1,8 +1,10 @@
 // Form
+// Test: Improved form control transitions for better UX
 
 .form-control {
   max-width: $input-max-width;
   background-color: $white;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
   &.input-xlarge {
     max-width: 21.875rem;
